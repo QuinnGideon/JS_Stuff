@@ -1,5 +1,4 @@
 var currentH0 = document.getElementById('heading1').innerHTML;
-
 // This variable attaches to the h1 tag
 var currentH1 = document.getElementById('heading1');
 // This variable attaches to the input box
@@ -7,6 +6,9 @@ var inputValue = document.getElementById('boxInput');
 var myDoc = document.body.style;
 // This variable sets up the REGEX
 var myRE = /blue/;
+// This variable attaches to the second input box
+var currentColor = document.getElementById('colorInput');
+
 
 
 // This function allows you to change the h1 after entering your argument
@@ -28,6 +30,15 @@ function changeContent() {
 function changeColor() {
   if (myRE.test(inputValue.value)) {
     myDoc.backgroundColor = "RGBA(0, 160, 217, 1.00)";
+  } else {
+    myDoc.backgroundColor = "white";
+  }
+}
+
+// This function takes the value from the input and puts out a color
+function changeColor1() {
+  if (currentColor.value) {
+    myDoc.backgroundColor = `#${currentColor.value}`;
   } else {
     myDoc.backgroundColor = "white";
   }
