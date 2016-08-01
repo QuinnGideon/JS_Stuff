@@ -13,3 +13,17 @@ function changeH1(param) {
 function changeContent() {
   changeH1(inputValue.value);
 }
+
+
+
+
+
+// var myRE = /blue/;
+// var changeColor = function() {
+//   if (myRE.test(input1)) {
+//     document.body.style.backgroundColor = "blue";
+//   } else {
+//     document.body.style.backgroundColor = "white";
+//   }
+// }
+// setTimeout(changeColor(),1000);
