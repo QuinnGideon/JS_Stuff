@@ -1,5 +1,5 @@
 # JS DOM Manipulation
-#### Vanilla JS DOM manipulation using an input box.
+#### Vanilla JavaScript DOM manipulation using an input box.
 
 
 
@@ -8,4 +8,3 @@
 - Updating the page heading while typing in an input box.
 - Returning the heading to original text if input box is empty.
 - Changing the page color to blue if the word **blue** is typed; **white** if it is removed.
-
